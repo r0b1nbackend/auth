@@ -8,7 +8,6 @@ class Event(BaseModel):
     image:str
     description:str
     tags:List[str]
-    events:[]
 
     class Config:
         schema_extra = {
